@@ -1,0 +1,18 @@
+console.log("----------------------------------- Step 1--------------------------------");
+var id= 4;
+console.log("ID no is:,", id,",Type of ID is:", typeof id);
+
+var myName="Sayali";
+console.log("My Name is:",myName,",Type of Name is:",typeof myName);
+
+var isMarried= true;
+console.log("Married Status:",isMarried,",Type of is Married:", typeof isMarried);
+
+
+console.log("------------Step 2(Difference between null VS Undefined)---------------------");
+
+
+console.log("Null:");
+console.log("Null is a special value that represents an empty or unknown value.");
+console.log("Undefined:");
+console.log("A variable that has not been assigned a value is of type undefined .");
