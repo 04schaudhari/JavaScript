@@ -2,7 +2,7 @@ console.log(`-----------------------------------------Step1---------------------
 function stringBasic()
 {
     var companyName="Microsoft";
-    console.log(`My dream company is: "IMB"`);
+    console.log(`My dream company is: "IBM"`);
 }
 stringBasic();
 
