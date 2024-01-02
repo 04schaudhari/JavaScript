@@ -1,35 +1,41 @@
-console.log( `-----------------------step1-------------------------------`);
+console.log( `-----------------------Step 1-------------------------------`);
+console.log("");
+function squareOfWordLength(str1){
 
-function squareOfWordLenght(word){
-     console.log('Given String is: ${word}');
+    var lengthOfString = str1.length;
+    var squareOfStringLength = str1.length * str1.length;
 
-     var len = word.length;
-     console.log(`Length of string is: ${len}`);
-     var result = len * len;
-  return result;
+    console.log(`Given String is:"${str1}", Length is: ${squareOfStringLength}`);
+
+
+
 }
 
-var returnResult = squareOfWordLenght("JavaScript");
-console.log(`Length of square is: ${returnResult}\n`);
-var returnResult = squareOfWordLenght("Google Chrome");
-console.log(`Length of square is is: ${returnResult}\n`);
-var returnResult = squareOfWordLenght("Developer Smart");
-console.log(`Length of square is: ${returnResult}\n`);
-console.log( `-----------------------step2-------------------------------`);
+squareOfWordLength("Java Script");
+squareOfWordLength("Google Chrome");
+squareOfWordLength("Developer Smart");
+console.log("");
 
-function noValue() {
-    var string = "I am Angular Developer";
-    console.log(`The Given String is ${string}`);
-    var Stringlen = string.length;
-    console.log(`The Length of Given String is ${Stringlen}`);
+console.log( `-----------------------Step 2-------------------------------`);
+    console.log("");
 
-    var wordsavailabel= string.split(" ");
-    console.log(`The words in Given String is ${wordsavailabel}`);
+function string(){
+    var str="I am Angular Developer";
+    console.log(`The Given String is: ${str}`);
 
- var divideby = Stringlen / wordsavailabel.length;
- console.log(`After dividing  ${divideby}`);
+    var strLength=str.length;
+    console.log(`String Length is: ${strLength}`);
 
-  var multiplication = Stringlen* wordsavailabel.length;
-  console.log(`Total words available in string after multiplication is ${multiplication}`);
+    var strWord=str.split(" ");
+    console.log(`Total of String Word is: ${strWord.length}`);
+
+    var strDiv=str.length/strWord.length;
+    console.log(`Division of String Word and Lenght of Word: ${strDiv}`);
+
+    var strMul=str.length*strWord.length;
+    console.log(`Multiplication of String Word and Lenght of Word: ${strMul}`);
+
+    console.log("");
 }
-noValue();
+
+string()
