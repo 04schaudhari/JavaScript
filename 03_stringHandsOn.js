@@ -2,7 +2,6 @@ console.log(`-----------------------------------------String Functions----------
 function stringHandsOn()
 {
     
-    var str1="  Hey you are doing good, keep it up  ";
     console.log(`Given string is: ${str1}`);
     console.log(`-----------------------------------------Step2--------------------------------------------`);
 
